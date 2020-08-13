@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.start, .next, .again {
+    margin: 20px 0px 0px 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    margin: 20px 0px 0px 0px;
+}
+
+li {
+    margin: 20px 0px 0px 0px;
+    border: 1px solid #4e3e;
+    padding: 10px 0px 10px 10px;
+    cursor: pointer;
+}
+
+.question_counter {
+    margin: 0px 0px 20px 0px;
+}

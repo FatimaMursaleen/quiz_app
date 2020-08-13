@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="quiz_app">
+
+        <div class="start_game">
+
+            <h1 class="quiz_heading"> QUIZ APP </h1>
+
+            <p class="quiz_details"> There are only <span class="quiz_length"> </span> questions </p>
+
+            <button class="start" onclick="start()"> START </button>
+
+        </div>
+
+        <div class="quiz_section hidden">
+
+            <div class="question_counter">
+
+            </div>
+
+            <div class="questions">
+
+            </div>
+
+            <div class="options">
+                <ul class="option_list">
+
+                </ul>
+            </div>
+
+            <button class="next" onclick="next()"> NEXT </button>
+
+        </div>
+
+        <div class="end_quiz hidden">
+
+            <table class="end">
+
+                <tr>
+                    <td colspan="2">
+                        <h1> Your Achievements </h1>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Total Questions
+                    </td>
+
+                    <td id="col1">
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Right Answers
+                    </td>
+
+                    <td id="col2">
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Wrong Answers
+                    </td>
+
+                    <td id="col3">
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h3> Quiz End </h3>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
